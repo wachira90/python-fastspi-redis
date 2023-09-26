@@ -9,13 +9,15 @@ virtualenv env
 ## load env 
 
 ```sh
-env\Script\activate
+env\Scripts\activate
 ```
 
 ## install package 
 
 ```sh
 pip install -r req.txt
+#or
+pip install fastapi uvicorn redis
 ```
 
 ## run command 
